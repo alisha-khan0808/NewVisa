@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { AdminSidebar } from '@/components/admin/sidebar';
+import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs } from '@/components/ui/tabs';

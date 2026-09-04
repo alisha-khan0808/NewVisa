@@ -17,7 +17,7 @@ export default function ContactPage() {
           <Mail className="h-12 w-12 text-accent-400 mx-auto mb-4" />
           <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
           <p className="text-lg text-primary-200 max-w-2xl mx-auto">
-            Have questions? Reach out to our team and we'll be happy to help.
+            Have questions? Reach out to our team and we&#39;ll be happy to help.
           </p>
         </div>
       </section>

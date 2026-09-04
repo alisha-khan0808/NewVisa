@@ -66,7 +66,7 @@ export default function HomePage() {
               Popular Immigration Destinations
             </h2>
             <p className="mt-3 text-lg text-gray-500 max-w-2xl mx-auto">
-              Explore visa and immigration options for the world's most sought-after destinations.
+              Explore visa and immigration options for the world&#39;s most sought-after destinations.
             </p>
           </div>
 
