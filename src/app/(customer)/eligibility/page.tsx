@@ -81,7 +81,7 @@ export default function EligibilityForm() {
       5: ['available_funds'],
     };
     const required = requiredFields[currentStep] || [];
-    return required.every(f => form[f].trim() !== '');
+    return required.every(f => (form as Record<string, string>)[f].trim() !== '');
   };
 
   const handleSubmit = async () => {
