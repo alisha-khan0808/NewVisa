@@ -3,7 +3,7 @@
 import { AdminSidebar } from '@/components/admin/sidebar';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Tabs } from '@/components/ui/tabs';
+import { Tabs, TabsContent } from '@/components/ui/tabs';
 
 const flightBookings = [
   { id: 'FLT-001', customer: 'Priya Sharma', route: 'DEL → YYZ', date: '2026-10-15', passengers: 2, total: '$2,400', status: 'confirmed' },

@@ -4,7 +4,7 @@ import { AdminSidebar } from '@/components/admin/sidebar';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { Tabs } from '@/components/ui/tabs';
+import { Tabs, TabsContent } from '@/components/ui/tabs';
 
 const pages = [
   { title: 'Canada Immigration', slug: '/countries/canada', type: 'Country Page', updated: '2026-09-01' },

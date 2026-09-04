@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import CustomerDashboardLayout from '../layout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Tabs } from '@/components/ui/tabs';
+import { Tabs, TabsContent } from '@/components/ui/tabs';
 import { Plane, Hotel, Package } from 'lucide-react';
 import { Skeleton } from '@/components/ui/skeleton';
 

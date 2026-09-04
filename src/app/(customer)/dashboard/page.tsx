@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Avatar } from '@/components/ui/avatar';
-import { Tabs } from '@/components/ui/tabs';
+import { Tabs, TabsContent } from '@/components/ui/tabs';
 import { LEAD_STATUS, APPLICATION_STATUS, DOCUMENT_STATUS, CONSULTATION_TYPE } from '@/lib/constants';
 
 const statusStyles: Record<string, 'success' | 'warning' | 'error' | 'default' | 'info'> = {
