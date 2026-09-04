@@ -15,14 +15,14 @@ const TabsContext = createContext<TabsContextValue>({
 });
 
 interface TabsProps {
-  defaultValue: string;
+  defaultValue?: string;
   value?: string;
   onValueChange?: (value: string) => void;
   children: React.ReactNode;
   className?: string;
 }
 
-function Tabs({ defaultValue, value, onValueChange, children, className }: TabsProps) {
+function Tabs({ defaultValue = '', value, onValueChange, children, className }: TabsProps) {
   const [internalValue, setInternalValue] = useState(defaultValue);
   const currentValue = value ?? internalValue;
   const handleChange = useCallback((v: string) => {
