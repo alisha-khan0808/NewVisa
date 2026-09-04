@@ -26,6 +26,7 @@ interface FlightResult {
   available_seats: number;
   trip_type: string;
   status: string;
+  cabin_class?: string;
 }
 
 export default function FlightsPage() {
