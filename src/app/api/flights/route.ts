@@ -29,6 +29,7 @@ function generateDemoFlights(from: string, to: string, date: string, passengers:
       available_seats: 180 - Math.floor(Math.random() * 50),
       trip_type: tripType === 'oneway' ? 'oneway' : 'roundtrip',
       status: 'available',
+      cabin_class: 'economy',
     };
   });
 }

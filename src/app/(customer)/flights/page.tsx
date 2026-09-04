@@ -213,7 +213,7 @@ export default function FlightsPage() {
                           <div className="flex items-center gap-4 mb-2">
                             <span className="font-semibold text-lg">{flight.airline}</span>
                             <span className="text-sm text-gray-500">{flight.flight_number}</span>
-                            <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{flight.cabin_class || cabin}</span>
+                            <span className="text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{cabin}</span>
                           </div>
                           <div className="flex items-center gap-6 text-sm">
                             <div className="text-center">
