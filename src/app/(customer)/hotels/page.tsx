@@ -1,18 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { Hotel, ArrowRight, Calendar, Users, Search, X, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs } from '@/components/ui/tabs';
 import { Skeleton } from '@/components/ui/skeleton';
-
-export const metadata: Metadata = {
-  title: 'Hotel Booking — Search & Book Hotels Worldwide | NewVisa',
-  description: 'Find and book hotels worldwide with competitive rates. Search by destination, dates, and preferences.',
-};
 
 interface HotelResult {
   id: string;

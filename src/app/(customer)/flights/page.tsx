@@ -1,18 +1,12 @@
 'use client';
 
 import { useState } from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { Plane, ArrowRight, Calendar, Users, Search, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs } from '@/components/ui/tabs';
 import { Skeleton } from '@/components/ui/skeleton';
-
-export const metadata: Metadata = {
-  title: 'Flight Booking — Search & Book Flights Worldwide | NewVisa',
-  description: 'Search and book flights worldwide with competitive fares. One-way, round-trip, and multi-city options available.',
-};
 
 interface FlightResult {
   id: string;

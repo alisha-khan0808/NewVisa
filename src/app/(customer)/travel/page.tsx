@@ -1,17 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { Metadata } from 'next';
 import Link from 'next/link';
 import { Plane, Hotel, ArrowRight, CheckCircle2, Package } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Tabs } from '@/components/ui/tabs';
-
-export const metadata: Metadata = {
-  title: 'Flight + Hotel Packages — Combined Travel Booking | NewVisa',
-  description: 'Book flight + hotel packages and save. Combined travel bookings with a single Travel Booking ID.',
-};
 
 export default function TravelPage() {
   const [showFlightSearch, setShowFlightSearch] = useState(false);
